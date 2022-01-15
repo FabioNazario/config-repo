@@ -8,5 +8,6 @@ microservice:
     pass: "12345645"
 
 monstro:
-  application-name: monstro
+  application:
+    name: testeTeste
   
