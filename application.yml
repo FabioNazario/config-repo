@@ -6,3 +6,7 @@ microservice:
   datasource:
     user: "root"
     pass: "12345645"
+
+monstro:
+  application-name: monstro
+  
