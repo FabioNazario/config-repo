@@ -1,0 +1,8 @@
+microservice:
+  example:
+    greeting: "Estou sendo importado do git"
+  jwt:
+    secret: "123123sdasdgahksjgdg"
+  datasource:
+    user: "root"
+    pass: "12345645"
