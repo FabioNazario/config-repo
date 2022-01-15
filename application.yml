@@ -13,5 +13,4 @@ monstro:
 
 syslog:
   host: logs.papertrailapp.com
-syslog:
   port: 18013
