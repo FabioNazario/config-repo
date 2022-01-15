@@ -10,4 +10,8 @@ microservice:
 monstro:
   application:
     name: testeTeste
-  
+
+syslog:
+  host: logs.papertrailapp.com
+syslog:
+  port: 18013
