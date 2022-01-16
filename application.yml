@@ -8,9 +8,9 @@ microservice:
 #MONSTRO CONFIG COM H2
   monstro:
     application:
-      name: seguranca
+      name: monstro
     datasource:
-      url: jdbc:h2:mem:seguranca
+      url: jdbc:h2:mem:monstro
       driver-class-name: org.h2.Driver
       username: sa
       password: 
