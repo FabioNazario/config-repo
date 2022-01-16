@@ -3,7 +3,6 @@ log:
 microservice:
   jwt:
     secret: "2dfb811abb93f5644eaad865c4e466020a787d17d74b4f3c6ad2a07f8a7c796a"
-#MONSTRO CONFIG -----------------------------------------------------------------------------------
   monstro:
     application:
       name: monstro
@@ -13,4 +12,4 @@ microservice:
       username: root
       password: root
    jpa:
-    database-platform: org.hibernate.dialect.MySQL5Dialect  
+    database-platform: org.hibernate.dialect.MySQL5Dialect
