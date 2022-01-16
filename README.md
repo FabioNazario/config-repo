@@ -13,7 +13,7 @@ spring:
           uri: https://github.com/FabioNazario/config-repo
 ```
 
-Para utilizar o logback.xml centralizado, a seguinte propriedade:
+Para utilizar o logback.xml centralizado, utilize a seguinte propriedade:
 
 ```yml
 
