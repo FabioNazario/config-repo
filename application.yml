@@ -1,4 +1,3 @@
-#CONFIG GERAL -------------------------------------------------------------------------------------
 microservice:
   log:
     config: https://raw.githubusercontent.com/FabioNazario/config-repo/main/logback.xml
