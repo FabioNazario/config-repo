@@ -5,7 +5,7 @@ microservice:
   jwt:
     secret: "2dfb811abb93f5644eaad865c4e466020a787d17d74b4f3c6ad2a07f8a7c796a"
 
-#MONSTRO CONFIG COM H2
+#MONSTRO CONFIG -----------------------------------------------------------------------------------
   monstro:
     application:
       name: monstro
@@ -16,11 +16,23 @@ microservice:
       password: 
     jpa:
       database-platform: org.hibernate.dialect.H2Dialect
+      
+#SEGURANCA CONFIG --------------------------------------------------------------------------------
+  seguranca:
+    application:
+      name: seguranca
+    datasource:
+      url: jdbc:h2:mem:seguranca
+      driver-class-name: org.h2.Driver
+      username: sa
+      password: 
+    jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
 
-#MONSTRO CONFIG -----------------------------------------------------------------------------------
-#  monstro:
+#MYSQL CONFIG EXEMPLO -----------------------------------------------------------------------------------
+#  <NOME_APLICACAO>:
 #    application:
-#      name: monstro
+#      name: <NOME_APLICACAO>
 #    datasource:
 #      url: jdbc:mysql://localhost:3306/monstro?createDatabaseIfNotExist=true
 #      driver-class-name: com.mysql.cj.jdbc.Driver
