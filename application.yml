@@ -12,6 +12,4 @@ monstro:
     name: testeTeste
 
 syslog:
-  host: logs.papertrailapp.com
-  port: 18013
   config: https://raw.githubusercontent.com/FabioNazario/config-repo/main/logback.xml
