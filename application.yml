@@ -9,7 +9,7 @@ microservice:
 
 monstro:
   application:
-    name: testeTeste
+    name: monstro
 
 syslog:
   config: https://raw.githubusercontent.com/FabioNazario/config-repo/main/logback.xml
