@@ -12,3 +12,10 @@ spring:
         git:
           uri: https://github.com/FabioNazario/config-repo
 ```
+
+para utilizar o logback.xml centralizado, a seguinte propriedade:
+
+```yml
+logging:
+  config: https://raw.githubusercontent.com/FabioNazario/config-repo/main/logback.xml
+```
