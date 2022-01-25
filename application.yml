@@ -46,7 +46,7 @@ microservice:
 #    application:
 #      name: <NOME_APLICACAO>
 #    datasource:
-#      url: jdbc:mysql://localhost:3306/monstro?createDatabaseIfNotExist=true
+#      url: jdbc:mysql://localhost:3306/<NOME_DB>?createDatabaseIfNotExist=true
 #      driver-class-name: com.mysql.cj.jdbc.Driver
 #      username: root
 #      password: root
