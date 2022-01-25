@@ -1,6 +1,5 @@
 <configuration>
     <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
-
     <appender name="PAPERTRAIL" class="ch.qos.logback.classic.net.SyslogAppender">
         <syslogHost>logs.papertrailapp.com</syslogHost>
         <port>18013</port>
@@ -20,17 +19,10 @@
     <appender-ref ref="PAPERTRAIL" />
         <appender-ref ref="STDOUT" />
     </root>
-
-
     <springProfile name="dev">
         <root level="INFO">
             <appender-ref ref="STDOUT"/>
             <appender-ref ref="PAPERTRAIL"/>
-            
         </root>
     </springProfile>
-
-    
-
-
 </configuration>
